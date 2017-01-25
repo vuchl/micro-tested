@@ -1,0 +1,22 @@
+{
+  "name": "micro-tested",
+  "version": "0.0.1",
+  "description": "first steps to make testing happen",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --require async-to-gen/register",
+    "start": "micro ./src/index.js"
+  },
+  "author": "Sebastian Vogel",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "^6.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "chai": "^3.5.0",
+    "test-listen": "^1.0.0",
+    "async-to-gen": "^1.3.0",
+    "request": "^2.79.0"
+  }
+}
