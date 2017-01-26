@@ -15,10 +15,10 @@ describe(`the endpoint facing the web`, async () => {
   const url =  await listen(server)
   describe('GET /', () => {
     it(`returns status code 200`, (done) => {
-        request.get(url, (error, response, body) => {
-          expect(response.statusCode).to.equal(200)
-          done()            
-        })
+      request.get(url, (error, response, body) => {
+        expect(response.statusCode).to.equal(200)
+        done()            
+      })
     })
     it(`returns "Now we talkin' micro!"`, (done) => {
       request.get(url, (error, response, body) => {
