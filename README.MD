@@ -13,6 +13,11 @@ Pull the repo
 git clone https://github.com/vuchl/micro-tested.git
 ```
 
+Enter the repo
+```bash
+cd micro-tested
+```
+
 Install the dependencies
 ```bash
 npm install
