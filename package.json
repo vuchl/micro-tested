@@ -4,7 +4,7 @@
   "description": "first steps to make testing happen",
   "main": "./src/index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --require async-to-gen/register",
+    "test": "node ./node_modules/mocha/bin/mocha --require async-to-gen/register",
     "start": "micro ./src/index.js"
   },
   "author": "Sebastian Vogel",
